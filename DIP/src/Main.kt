@@ -1,5 +1,17 @@
 
-connect()
+
+
+interface KeyBoard {
+    val name: String
+    fun connect()
+    fun type() {
+        println("typing...")
+    }
+}
+
+interface Mouse {
+    val name: String
+    fun connect()
     fun click() {
         println("clicking...")
     }
